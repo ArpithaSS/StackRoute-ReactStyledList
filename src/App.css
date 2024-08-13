@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.movies-app{
+  width: 100vw;
+  height: 15vh;
+  background-color: yellow;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+button{
+  height: 2rem;
+  width: 10rem;
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: orange;
+  color: black;
+}
+.movie-name:hover{
+background-color: yellow;
+}
+
+table{
+  height: 80%;
+  width: 60%;
+  border: 2px solid yellow;
+}
+
+thead{
+  border: 1px solid yellow;
+}
+tr{
+  padding: 20px;
+  border: 1px solid yellow;
+}
+
+
